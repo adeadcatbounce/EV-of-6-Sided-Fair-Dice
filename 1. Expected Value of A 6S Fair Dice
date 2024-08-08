@@ -1,6 +1,6 @@
 """
 this code shows
-that with increasing number of trials from 1 to a billion
+that with increasing number of trials from 1 to a million
 the expected value of rolls from a six sided fair dice
 gets closer and closer to the theoretical value of ~ 3.5
 """
@@ -19,8 +19,8 @@ expected_value = sum_dice/len(dice_numbers)
 # specifying the probability of each number in a six sided fair dice
 probability_array = np.full(6, 1/6)
 
-# creating trials for dice rolls between one and a billion
-trials = [10**x for x in range(0,6)]
+# creating trials for dice rolls between one and a million
+trials = [10**x for x in range(0,7)]
 
 # printing output : expected value
 
