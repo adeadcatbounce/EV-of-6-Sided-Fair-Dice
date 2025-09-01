@@ -18,7 +18,7 @@ probability_array = np.full(6, 1/6)
 # creating trials for dice rolls between one and a million
 trials = [10**x for x in range(0,10)]
 
-# printing output : expected value
+# printing output : expected value of six sided fair dice
 
 print()
 print(f"The expected value of a six sided fair dice roll is {expected_value} \n")
